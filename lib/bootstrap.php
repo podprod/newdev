@@ -3,14 +3,17 @@
 define('DB', __DIR__.'/../db/deals.db');
 setlocale(LC_ALL, 'fr_CH.UTF-8');
 
-
 spl_autoload_register('autoload');
 
 require dirname(__DIR__) . '/vendors/redbean/rb.php';
 
 RedBean_ModelHelper::setModelFormatter(new lib\utils\ModelFormatter());
 
-R::setup('sqlite:' . DB);
+if (is_writable(DB) || !file_exists(DB) && is_writable(dirname(DB))) {
+	R::setup('sqlite:' . DB);
+} else {
+	die('Cannot open/create ' . DB);
+}
 
 if (!file_exists(DB)) {
 	require __DIR__ . '/setup.php';
