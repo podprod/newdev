@@ -8,8 +8,7 @@ the privacy of your participation.
 Thanks.
 
 
-What you don't have to change
------------------------------
+# What you don't have to change
 
 The database schema is fine as is, really, don't bother improving it.
 
@@ -17,29 +16,29 @@ We don't expect you to be an expert, neither a designer so don't do stuff you're
 unsure about. Being overconfident isn't always good.
 
 
-What you can change, improve, etc.
-----------------------------------
+# What you can change, improve, etc.
 
 Mostly everything:
 
- - security
- - performance
- - design
- - existing bugs (known or unknown)
- - …
+* security
+* performance
+* design
+* existing bugs (known or unknown)
+* …
 
 
-What we want you to do
-----------------------
+# What we want you to do
 
- - to keep a very simple changelog of what you did (see CHANGELOG)
- - to fill anything you'd like to do but it takes too much time into TODO
- - to join your resume as an HTML file (put it where you want)
+* to keep a very simple changelog of what you did (see CHANGELOG)
+* to fill anything you'd like to do but it takes too much time into TODO
 
 
-Stuffs used
------------
+# Stuffs used
 
- - RedBean for the ORM part: http://www.redbeanphp.com/
- - The standard PSR-0 autoloader:
-   https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
+* RedBean for the ORM part: http://www.redbeanphp.com/
+* The standard PSR-0 autoloader: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
+
+
+# Q&A
+
+If you have any questions, just fill an issue here.

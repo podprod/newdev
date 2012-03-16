@@ -1,0 +1,45 @@
+Salut,
+
+Tu trouves ici un mini web-shop qu'il te faut améliorer.
+
+Dès que tu en as terminé, fais une “pull request” ou envoie-nous ta réponse par e-mail si tu préfères reste anonyme.
+
+Merci.
+
+
+# Ce dont tu n'es pas obligé de toucher
+
+Le schéma de la base de donnée est okay ainsi, il n'est pas nécessaire de t'en préoccuper.
+
+Nous n'attendons pas de toi que tu soies un expert, ni un graphiste donc ne te lance pas dans des tâches surlesquelles tu n'es pas à l'aise.
+
+
+# Ce que tu peux modifier
+
+
+Tout le reste :
+
+* sécurité
+* performance
+* interface graphique
+* bogues existants
+* etc.
+
+
+# Ce que nous te demandons
+
+* conserve un log des modifications faites (voir CHANGELOG)
+* de remplir tout ce qu'il y a à faire mais qui prendraient trop de temps dans le fichier TODO
+
+
+# Programmes utilisés
+
+Ils sont déjà présents dans l'exercice, rien n'a installer.
+
+* RedBean pour l'ORM: http://www.redbeanphp.com/
+* L'autoloader standard PSR-0: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
+
+
+# Questions éventuelles
+
+En cas de problème, utilise le système de tickets (issue) du projet. Nous tâcherons d'y répondre promptement et clairement.
